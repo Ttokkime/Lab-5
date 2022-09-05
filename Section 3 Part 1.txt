@@ -1,0 +1,10 @@
+IP Addresses
+172.30.0.2
+172.30.0.10
+172.16.8.5
+172.16.8.99
+172.16.20.99
+172.16.20.5
+172.16.8.255
+
+I expected all the IP addresses to be numbers, but saw a Vmware-ab:1b:08 in the IP addresses. I realized that this was because of how it not only used the ARP protocol but was also a SYN ACK reponse, one that was different from the others which were ping requests. 
